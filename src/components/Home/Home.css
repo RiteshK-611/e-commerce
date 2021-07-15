@@ -9,14 +9,15 @@
 
 .home__image {
   width: 100%;
-  z-index: -1;
-  margin-bottom: -150px;
-  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  height: 32%;
+  /* z-index: -1; */
+  margin-bottom: -180px;
+  mask-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
 }
 
-.home__row {
+.home__row {        
   display: flex;
-  z-index: 1;
+  z-index: 2;
   margin-left: 5px;
   margin-right: 5px;
 }

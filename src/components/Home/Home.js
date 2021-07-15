@@ -1,15 +1,15 @@
-import React from 'react'
 import "./Home.css";
 import Product from '../Product/Product'
+import Banner from '../Banner/Banner'
 
 const Home = () => {
   return (
     <div className="home">
       <div className="home__container">
-        <img className="home__image"
-          // src="https://i1.wp.com/popaxiom.com/wp-content/uploads/2020/01/153584/best-documentaries-on-prime-video-prime-video.jpg?fit=750%2C421&ssl=1"
+        {/* <img className="home__image"
           src="https://images-eu.ssl-images-amazon.com/images/G/31/AmazonVideo/2021/X-site/Multititle/Feb/EN/1500x600_Hero-Tall_NP._CB660400564_.jpg"
-          alt="amazon" />
+        alt="amazon" /> */}
+        <Banner />
         
         <div className="home__row">
           <Product

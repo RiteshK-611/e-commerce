@@ -11,6 +11,7 @@
   background-color: white;
   z-index: 1;
   transition: transform .16s ease-in;
+  border-radius: 5px;
 }
 
 .product__info {
@@ -45,4 +46,8 @@
 .product:hover {
   transform: scale(1.02);
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.7);
+}
+
+.progress__bar {
+  background: #d49542;
 }

@@ -32,9 +32,9 @@ const CheckoutProduct = ({ key, id, title, price, rating, image, hideButton }) =
                 ))}
             </div>
             {!hideButton && (
-                <button onClick={removeFromCart}>Remove from Cart</button>
+                <button style={{padding: '5px 15px', borderRadius: '3px', cursor: 'pointer'}} onClick={removeFromCart}>Remove from Cart</button>
             )}
-        </div>
+        </div>  
       </div>
     </FlipMove>
   )

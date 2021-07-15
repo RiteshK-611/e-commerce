@@ -27,12 +27,16 @@
   padding: 10px;
   border: none;
   width: 100%;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
 }
 
 .header__searchIcon {
   padding: 5px;
   height: 22px !important;
   background-color: #cd9042;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
 .header__nav {

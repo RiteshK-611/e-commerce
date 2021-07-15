@@ -2,10 +2,13 @@
   display: flex;
   margin-top: 20px;
   margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 10px grey;
 }
 
 .checkoutProduct__info {
-  padding-left: 20px
+  padding-left: 20px;
+  /* padding: 5px 10px; */
 }
 
 .checkoutProduct__title {
@@ -17,6 +20,7 @@
   object-fit: contain;
   width: 180px;
   height: 180px;
+  padding: 5px 0;
 }
 
 .checkoutProduct__rating {
